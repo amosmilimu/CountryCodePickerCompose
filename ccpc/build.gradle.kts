@@ -69,7 +69,7 @@ afterEvaluate {
         publications {
             create("release", MavenPublication::class.java) {
                 from(components.getByName("release"))
-                groupId = "com.githum.amosmilimu"
+                groupId = "com.github.amosmilimu"
                 artifactId = "ccpc"
                 version = "1.0.0"
             }

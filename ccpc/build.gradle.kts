@@ -69,9 +69,9 @@ afterEvaluate {
         publications {
             create("release", MavenPublication::class.java) {
                 from(components.getByName("release"))
-                groupId = "com.rejowan"
+                groupId = "com.githum.amosmilimu"
                 artifactId = "ccpc"
-                version = "0.1"
+                version = "1.0.0"
             }
         }
     }

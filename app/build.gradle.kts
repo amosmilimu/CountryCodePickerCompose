@@ -52,7 +52,8 @@ android {
 dependencies {
 
   //  implementation(project(":ccpc"))
-    implementation(libs.countrycodepickercompose)
+    implementation("com.github.amosmilimu:CountryCodePickerCompose:0.1")
+
 
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.lifecycle.runtime.ktx)
